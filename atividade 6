@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(){
+    float dol,re,conv;
+    printf ("Informe a cotação do dollar");
+    scanf("%f", &dol);
+    printf ("Informe a quantidade de reais a serem convertidos");
+    scanf("%f", &re);
+    printf ("\n-----------------------------------\n");
+    printf ("cotação do dollar, %2.f", dol);
+    printf ("\n Quantidade de reais, %2.f", re);
+    conv=re/dol;
+    printf ("\n voce pode coverter %2.f reais em %2.f dollares ", re conv);
+}
