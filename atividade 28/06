@@ -1,0 +1,17 @@
+#include <stdio.h>
+float main (void){
+    float n1, n2, result;
+    printf ("Informe dois números inteiros");
+    scanf ("%f", &n1);
+    scanf ("%f", &n2);
+    
+    if (n1 == n2){
+        result = n1 * n2; 
+        printf ("O resultado igual multiplicados: %f", result);
+    }
+    else if (n1 != n2){ 
+        result = (n1 + n2);
+        printf ("O resultado somados diferentes: %f", result);
+    }
+    return 0;
+}
